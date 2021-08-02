@@ -26,7 +26,7 @@ function my_mousemove(e) {
   current_position_of_x = e.clientX - canvas.offsetLeft;
   current_position_of_y = e.clientY - canvas.offsetTop;
 
-  if (mouseEvent == "mousedown") {
+  if (mouseEvent == "mouseDown") {
     ctx.beginPath();
     ctx.strokeStyle = color;
     ctx.lineWidth = width_of_line;
